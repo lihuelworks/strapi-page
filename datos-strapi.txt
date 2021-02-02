@@ -1,0 +1,5 @@
+movies:
+title => textfield
+overview => texfield(long)
+rating => textfield
+pathposter => textfield

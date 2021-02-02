@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Nº2 MG</title>
+    <!-- STYLESHEETS -->
+    <!-- favicon sylesheets -->
+    <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+    <link rel="manifest" href="media/site.webmanifest">
+    <!-- own stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awesome stylesheet -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&display=swap" rel="stylesheet" />
+    <!-- SCRIPTS -->
+    <!-- boostrap so I can just get this page done jesus help me pls -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- other js libraries pleas le this work -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- own js files -->
+    <script type="text/javascript">
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', {
+            'packages': ['corechart']
+        });
+
+        // Set a callback to run when the Google Visualization API is loaded.
+        // google.charts.setOnLoadCallback(drawChart);
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">TP Nº2 Mathias Gomez</p>
+    </header>
+    <div class="sidebar">
+        <a href="#" id="ultimasPelis">Ver ultimas peliculas</a>
+        <a href="#" id="compararRating" ">Comparar popularidad</a>
+  </div>
+  <main>
+    <div id="app">
+      <div id="apicontenido"></div>
+    </div>
+  </main>
+  <footer id=" footer-normal ">
+    <p>Tecnología y Gestión Web,<time>4 de agosto de 2020</time>&nbsp;&nbsp;«</p>
+  </footer>
+  <footer id=" footer-mini ">
+    <p>TyG,<time>2020</time>&nbsp;&nbsp;«</p>
+  </footer>
+  <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "></script>
+  <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js "></script>
+  <script src=" https://cdn.jsdelivr.net/npm/vue/dist/vue.js "></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js "></script>
+  <script src=" app.js "></script>
+  <script src="post-n-charts.js"></script>
+</body>
+
+</html>
